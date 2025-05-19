@@ -20,6 +20,8 @@ Tech Stack
 ├── about.html
 ├── contact.html
 ├── projects.html
+├── resume-links.js
+├── resume-links.json
 ├── files/
 │ └── (optional: icons, profile picture, project images, resume)
 └── videos/
