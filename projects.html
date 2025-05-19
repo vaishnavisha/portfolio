@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Vaishnavi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+    <nav>
+        <a href="index.html">← Back to Home</a>
+    </nav>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Office Assistant Robot (ongoing)</h3>
+                <p>A voice-controlled robot using Raspberry Pi and face recognition to identify faculty, answer queries, and interact intelligently.</p>
+            </div>           
+            <div class="project-card">
+            <h3>Person Recognition & Identification Robot</h3>
+                    <p>
+                        I built a <strong>Person Recognition and Identification Robot</strong> that leverages face recognition to identify individuals in real-time and announce their identity.
+                    </p>
+                    <h4>🔧 Key Features:</h4>
+                    <ul>
+                        <li>🧠 <strong>Face Recognition:</strong> Uses <em>OpenCV</em> and <em>Dlib</em> with HOG+SVM for precise face detection and identification.</li>
+                        <li>📷 <strong>Live Video Feed:</strong> Captures input from Pi camera for real-time recognition.</li>
+                        <li>📁 <strong>Face Registration:</strong> Users can register their faces and roles (Student or Staff) via the web interface.</li>
+                        <li>🖥️ <strong>Flask Web Interface:</strong> A user-friendly web UI for registration and identification.</li>
+                    </ul>
+                    <h4>🛠️ Tech Stack:</h4>
+                    <p><em>Python, Flask, OpenCV, Dlib, SQLite, HTML, CSS, JavaScript, espeak</em></p>
+                    <h4>🎯 Purpose & Impact:</h4>
+                    <p>
+                        This robot brings automation to security and identification tasks. It can be deployed in academic or office settings to track staff presence, verify visitors, and support human-robot interaction with real-time data access and voice response.
+                    </p>
+                <a href="https://github.com/vaishnavisha/Person-Recognition-Robot">View Code</a>
+                <button onclick="toggleVideo('robotDemos')">▶ View Demo</button>
+                <div class="video-wrapper block" id="robotDemos">
+                    <div class="media-row">
+                        <div class="media-box">
+                            <div class="demo-title">Robot Image 1</div>
+                            <img src="files/robo1.png.jpg" alt="Robot Image 1">
+                        </div>
+                        <div class="media-box">
+                            <div class="demo-title">Robot Image 2</div>
+                            <img src="files/robo2.png.jpg" alt="Robot Image 2">
+                        </div>
+                    </div>
+                    <div class="media-row">
+                        <div class="media-box">
+                            <div class="demo-title">Recognition Demo</div>
+                            <video controls>
+                                <source src="videos/recog-robo.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-box">
+                            <div class="demo-title">Movement Demo</div>
+                            <video controls>
+                                <source src="videos/person-robo-move.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>QR Code Generator</h3>
+                <p>A web app built using HTML and CSS that generates QR codes for any input text or link.</p>
+                <a href="https://github.com/vaishnavisha/QRCode-Generator">View Code</a>
+                <button onclick="toggleVideo('demoVideo3')">▶ View Demo</button>
+                <div class="video-wrapper" id="demoVideo3">
+                    <video controls>
+                        <source src="videos/qr-code.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            <div class="project-card">
+                <h3>HTML Quiz App</h3>
+                <p>A responsive and interactive quiz application designed using HTML, CSS, and JavaScript. The app presents users with multiple-choice questions, provides immediate feedback on their answers, and keeps track of scores in real-time.</p>
+                <a href="https://github.com/vaishnavisha/quiz-app">View Code</a>
+                <button onclick="toggleVideo('demoVideo1')">▶ View Demo</button>
+                <button onclick="window.open('https://vaishnavisha.github.io/quiz-app/')">▶ View Live Demo</button>
+                <div class="video-wrapper" id="demoVideo1">
+                    <video controls>
+                        <source src="videos/app-quiz.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A web application built using HTML and CSS that fetches real-time weather data from OpenWeatherMap API. Users can enter the name of the city in the search box to view weather conditions like temperature, humidity, and wind speed</p>
+                <a href="https://github.com/vaishnavisha/Weather-App">View Code</a>
+                <button onclick="toggleVideo('demoVideo2')">▶ View Demo</button>
+                <div class="video-wrapper" id="demoVideo2">
+                    <video controls>
+                        <source src="videos/weather-app.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Gemini Clone</h3>
+                <p>A sleek UI clone of Google's Gemini chat using frontend skills to mimic chatbot interfaces.</p>
+                <p>This projects is about building a responsive web-based application developed using HTML, CSS, and JavaScript with Gemini API. Aiming to implement responsive design for optimal user experience.</p>
+                <a href="https://github.com/vaishnavisha/Gemini-clone">View Code</a>
+                <button onclick="toggleVideo('demoVideo4')">▶ View Demo</button>
+                <div class="video-wrapper" id="demoVideo4">
+                    <video controls>
+                        <source src="videos/gemini-clone.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+        </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+        strings: ['<i>Web Developer</i>', '<i>Robotics Enthusiast</i>', '<i>Learner</i>'],
+        typeSpeed: 50,
+    });
+    </script>
+    <script>
+        function toggleVideo(id) {
+            const videoDiv = document.getElementById(id);
+            if (videoDiv.style.display === "none" || videoDiv.style.display === "") {
+                videoDiv.style.display = "block";
+            } else {
+                videoDiv.style.display = "none";
+            }
+        }
+        </script>      
+</body>
+</html>
